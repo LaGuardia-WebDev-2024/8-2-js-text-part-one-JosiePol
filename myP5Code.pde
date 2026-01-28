@@ -8,13 +8,26 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-  background(255,255,255);
+  background(12,149,35);
   
   if(mousePressed){
     showXYPositions();
   }
 
   //🎯New Text Code Should Go Here 🡻
+
+textSize(40)
+fill(255, 255, 255)
+text("Josie", 96, 90)
+
+textSize(20)
+fill(121, 64, 7)
+text("My favorite animal is Bears", 150, 150)
+
+textSize(20)
+fill(240, 228, 25)
+text("My favorite color is yellow", 120, 120)
+
 
 };
 
